@@ -27,18 +27,19 @@ Install the above, and we can begin doing setup.
 1. Initiate LoopBe1's internal MIDI Port
 2. Plug in your Launch Control XL
 3. Open MIDI-OX
-4. Switch your LCXL into User mode
-5. Open the MIDI-OX Input Monitor. Play with some controls on the LCXL and confirm it is detecting input in MIDI OX
-6. Open the MIDI-OX MIDI Port Routing interface.
-7. Send Input Port "Launch Control XL" to Output Port "LoopBe Internal MIDI".
-8. Open the MIDI-OX Output Monitor. Play with some controls on the LCXL and confirm that the output matches the input.
-9. Launch the python script "lxcl_remap.py".
-10. You should now see the LCXL blink and then turn off all the knob and button lights except for the User light.
-11. Press the Track Select buttons to confirm the red bank light at the bottom moves, and tweak some knobs or faders to confirm their LEDs respond.
-12. Open your DAW
-13. Open the MIDI Input settings, and make sure it is listening to "LoopBe Internal MIDI", not "Launch Control XL"
-14. Congrats, if all is working, you now have a MIDI controller with 256 distinct controls split across 8 banks. 
-15. Open any VST and start mapping the controls. Have fun!
+4. Open the MIDI Devices window in MIDI-OX and make sure you have Launch Control XL added as an input, and LoopBe Internal MIDI added as an output.
+5. Switch your LCXL into User mode
+6. Open the MIDI-OX Input Monitor. Play with some controls on the LCXL and confirm it is detecting input in MIDI OX
+7. Open the MIDI-OX MIDI Port Routing interface.
+8. Send Input Port "Launch Control XL" to Output Port "LoopBe Internal MIDI".
+9. Open the MIDI-OX Output Monitor. Play with some controls on the LCXL and confirm that the output matches the input.
+10. Launch the python script "lcxl_remap.py".
+11. You should now see the LCXL blink and then turn off all the knob and button lights except for the User light.
+12. Press the Track Select buttons to confirm the red bank light at the bottom moves, and tweak some knobs or faders to confirm their LEDs respond.
+13. Open your DAW
+14. Open the MIDI Input settings, and make sure it is listening to "LoopBe Internal MIDI", not "Launch Control XL"
+15. Congrats, if all is working, you now have a MIDI controller with 256 distinct controls split across 8 banks. 
+16. Open any VST and start mapping the controls. Have fun!
 
 
 # Other Comments
